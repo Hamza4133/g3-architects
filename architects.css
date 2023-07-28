@@ -176,8 +176,10 @@ line-height: 26px; /* 162.5% */
 .features-1 h2{
     font-size: 45px;
     font-style: normal;
-    font-weight: 550;
+    font-weight: 700;
     line-height: normal;
+    border-left: .3rem solid #FF900E;
+    border-radius: .5rem;
 }
 .ten-years {
     width: 10rem;
@@ -239,6 +241,26 @@ line-height: 40px;
         flex-direction: column-reverse;
         width: 85%;
         margin: auto;
+    }
+    .section-2{
+        flex-direction: column;
+        width: 90%;
+    }
+    .colig{
+        border: 1px solid gray;
+        width: 85%;
+        margin: auto;
+        
+    }
+    .colig img{
+        width: 80%;
+        height: 94%;
+        margin: auto;
+        padding-left: 3.8rem;
+    }
+    .ten-years{
+        width: 8rem;
+        margin-top: -3rem;
     }
 }
 
